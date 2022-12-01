@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <title>Karel Kalaf Music</title>
+    <link href= "{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" />
+  
+  </head>
+<header>
+<!-- 
+Header/Navigation Starts - Idea/Code Implemented from https://www.codeply.com/p/P0KN7DNsEq
+-->
+<div class="menu-bar">
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="/"><img src="{{ url_for('static', filename='images/kk.png') }}" width="150" height="150" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="/about/">ABOUT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 SERVICES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/playing_styles/">PLAYING STYLES</a>
+                   <a class="dropdown-item" href="/guitar_tut/">GUITAR TUITION</a>
+                   <a class="dropdown-item" href="/hire/">HIRE ME</a>
+                   <div class="dropdown-divider"></div>
+             </div>
+                 </li> <li class="nav-item">
+                  <a class="nav-link" href="/quiz_index/">QUIZ</a>
+              </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="/contact/">CONTACT</a>
+              </li>
+
+          </ul>
+      </div>
+  </nav>
+</div>
+</header> 
+<!-- 
+Header/Navigation Ends
+-->
+
+
+    <!-- First Card Section-->
+    <section class="py-5 py-xl-6">
+      <div class="container overflow-hidden">
+        <div class="row gy-5">
+          <div class="col-12">
+            <div class="row align-items-center gy-3 gy-md-0 gx-xl-5">
+              <div class="col-xs-12 col-md-6">
+                <div class="img-wrapper position-relative hcf-transform">
+                  <a href="#!">
+                    <img src="{{ url_for('static', filename='./images/karel1.jpeg') }}" class="img-fluid" alt="Responsive image">
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6 text-center">
+                <div>
+                  <h1 class="h1 mb-3 text-center"><strong>K</strong>arel <strong>K</strong>alaf <strong>M</strong>usic</h1>
+                  <h2 class="h2 mb-3 text-center"><strong>G</strong>uitar <strong>L</strong>essons</h2>
+                  <p class="mb-4"><em>Edinburgh-based professional guitarist and guitar teacher.<br>Beginners and experts alike are welcome.<br>Free advice is offered.</em></p>
+                  <a class="btn btn-primary" href="/about/" target="_self"><strong>Explore</strong></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- First Card Section Ends-->
+    <!-- Second Card Section Starts-->
+
+    <div class="container-fluid py-6">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="lc-block mb-4">
+            <div editable="rich">
+    
+              <h2 class="fw-bold display-5">I teach both children and adults, everybody is welcome!</h2>
+            </div>
+          </div>
+          <div class="lc-block mb-5">
+            <div editable="rich">
+    
+    
+              <p class="lead text">Everybody can take guitar lessons. I'm always reachable at a time that is convenient for you. I'm available on weekends as well and teach till 8 o'clock at night.</p>
+            </div>
+          </div>
+    
+          <div class="lc-block d-sm-flex align-items-center mb-4 overflow-hidden position-relative">
+            <div class="d-inline-flex">
+              <div>
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon" class="text-success">
+                  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                  <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"></path>
+                </svg>
+              </div>
+    
+              <div class="ms-3 align-self-center" editable="rich">
+                <p class="pointer">Pay as you Go Lessons</p>
+              </div>
+            </div>
+          </div>
+          <div class="lc-block d-sm-flex align-items-center mb-4">
+            <div class="d-inline-flex">
+              <div>
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon" class="text-success">
+                  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                  <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"></path>
+                </svg>
+              </div>
+    
+              <div class="ms-3 align-self-center" editable="rich">
+                <p class="pointer">Weekly Lessons</p>
+              </div>
+            </div>
+          </div>
+          <div class="lc-block d-sm-flex align-items-center mb-4">
+            <div class="d-inline-flex">
+              <div>
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon" class="text-success">
+                  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                  <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"></path>
+                </svg>
+              </div>
+    
+              <div class="ms-3 align-self-center" editable="rich">
+                <p class="pointer">Be-Weekly Lessons</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4 mt-md-0 col-md-6">
+          <div class="lc-block px-4">
+            <!--  If you want to remove px-4 please add overflow-hidden class to the section -->
+            <div class="position-relative">
+              <div class="lc-block position-absolute top-0 start-0 w-100 h-100 bg-danger opacity-50 mt-4 ms-4"> </div>
+              <img class="position-relative img-fluid" src="{{ url_for('static', filename='./images/guitar3.jpeg') }}">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+ <!-- Second Card Section Ends-->
+
+ <!-- Third Card Section Starts-->
+
+<div class="container-fluid second py-6">
+	<div class="row flex-md-row-reverse align-items-center">
+		<div class="col-md-6">
+			<div class="lc-block mb-4">
+				<div editable="rich">
+
+					<h2 class="fw-bold display-5">Hire me for special occasions!</h2>
+				</div>
+			</div>
+			<div class="lc-block mb-5">
+				<div editable="rich">
+
+
+					<p class="lead text">With more than 20 years of experience performing at corporate events, galas, festivals, weddings, birthday parties, concerts, and pubs.<br> <br>Special Occasions will put every ounce of my energy into each note, chord, and beat. <br> <br>It is an honour and a joy to share these moments with all of you who have grown to support me as a musician.</p>
+				</div>
+			</div>
+
+			<div class="lc-block d-sm-flex align-items-center mb-4 overflow-hidden position-relative">
+				<div class="d-inline-flex">
+					<div>
+						<svg width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon" class="text-success">
+							<path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+							<path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"></path>
+						</svg>
+					</div>
+
+					<div class="ms-3 align-self-center" editable="rich">
+						<p>Wedding Hire.</p>
+					</div>
+				</div>
+			</div>
+			<div class="lc-block d-sm-flex align-items-center mb-4">
+				<div class="d-inline-flex">
+					<div>
+						<svg width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon" class="text-success">
+							<path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+							<path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"></path>
+						</svg>
+					</div>
+
+					<div class="ms-3 align-self-center" editable="rich">
+						<p>Full Band Gigs</p>
+					</div>
+				</div>
+			</div>
+			<div class="lc-block d-sm-flex align-items-center mb-4">
+				<div class="d-inline-flex">
+					<div>
+						<svg width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon" class="text-success">
+							<path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+							<path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"></path>
+						</svg>
+					</div>
+
+					<div class="ms-3 align-self-center" editable="rich">
+						<p>Solo Gigs</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mt-4 mt-md-0 col-md-6">
+			<div class="lc-block px-4">
+				<!--  If you want to remove px-4 please add overflow-hidden class to the section -->
+				<div class="position-relative" data-path="0.0.0.1.0">
+					<div class="lc-block position-absolute top-0 end-0 w-100 h-100 bg-danger opacity-50 mt-4 me-4"> </div>
+
+          <img class="position-relative img-fluid" src="{{ url_for('static', filename='./images/wedding.jpeg') }}">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+ <!-- Third Card Section Ends-->
+
+
+   
+
+
+<!--Subscribe To Newsletter Section Start-->
+    <section class="newsletter">
+      <div class="container">
+      <div class="row">
+      <div class="col-sm-12">
+        <div class="content">
+          <h2>Subscribe to my Newsletter</h2>
+        <div class="input-group">
+               <input type="email" class="form-control" placeholder="Enter your email">
+               <span class="input-group-btn">
+               <button class="btn" type="submit">Subscribe Now</button>
+               </span>
+                </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </section>
+  <!-- 
+Nesletter Section Ends
+-->    
+
+
+<!--Footer Starts-->
+
+<div class="footer-basic">
+  <footer>
+    <div class="social-icons">
+      <a href="https://twitter.com/karelkalaf"><i class="icon ion-social-twitter"></i></a>
+      <a href="https://www.facebook.com/karel.kalaf"><i class="icon ion-social-facebook"></i></a>
+      <a href="https://www.instagram.com/karelkalaf/"><i class="icon ion-social-instagram"></i></a>
+      <a href="https://www.youtube.com/user/karelkalaf1"><i class="icon ion-social-youtube"></i></a><br><br>
+      <p class="copyright">Karel Kalaf Music © 2022</p>
+  </div>
+  </footer>
+
+<!--Footer Ends-->
+
+
+
+  </body>
+     
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</html>
